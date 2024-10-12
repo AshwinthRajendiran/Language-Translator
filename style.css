@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'poppins',sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: black;
+}
+.container{
+    background-color: #F9c87c   ;
+    padding: 30px;
+    border-radius: 10px;
+    width: 690px;
+}
+.wrapper{
+    /* border: 1px solid orangered; */
+    border-radius: 10px;
+}
+.wrapper .text-input{
+    display: flex;
+    margin-bottom: 20px;
+    /* border-bottom: 1px solid orangered; */
+}
+.text-input .to-text{
+     /* border-left: 0.5px solid orangered; */
+     border-radius: 10px;
+     background-color: #fcf4ed;
+     border-bottom-right-radius: 10px;
+     border-bottom-left-radius: 0px;
+     border-top-left-radius: 0px;
+}
+.text-input .from-text{
+    border-right: 0.5px solid #F9c87c;
+    border-radius: 10px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 0px;
+    background-color: #fcf4ed;
+
+}
+.text-input textarea{
+    height: 250px;
+    width: 100%;
+    border: none;
+    outline: blue;
+    resize: none;
+    font-size: 18px;
+    border-radius: 10px;
+    padding: 10px 15px;
+}
+.control, li ,.icons,.icons i{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.control .row .from .icons{
+    padding-right: 15px;
+    border-right: 1px solid orangered;
+}
+.control .row .to .icons{
+    padding-left: 15px;
+    border-left: 1px solid orangered;
+}
+.control{
+    list-style: none;
+    padding: 12px 15px;
+    background: #ffe9c9;
+    /* border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px; */
+    border-radius: 10px;
+}
+.control .icons {
+    width: 38%;
+}
+.control .icons i{
+    color: orange;
+    font-size: 14px;
+    cursor: pointer;
+    width: 50px;
+    justify-content: center;
+}
+.control .row select{
+    border: none;
+    font: 18px;
+    background: none;
+    outline: none;
+}
+.control .exchange{
+    cursor: pointer;
+    font: 16px;
+    color:orange;
+}
+button{
+    width: 100%;
+    margin-top: 15px;
+    border: none;
+    outline: none;
+    color: orange;
+    background-color: #ffe9c9;
+    font-size: 17px;
+    padding: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: orange;
+    color: palegoldenrod;
+}
+.icons i:hover{
+    color: red;
+}
+.exchange:hover{
+    color: red;
+}
+select:hover{
+    cursor: pointer;
+}
