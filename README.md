@@ -34,8 +34,6 @@ This project uses the MyMemory API for translations. If you want to use your own
 1. Sign up at [MyMemory API](https://mymemory.translated.net/)
 2. Replace the API endpoint in `script.js` with your API key.
 
-## Screenshots
-![Language Translator](https://via.placeholder.com/600x400)
 
 ## Future Enhancements
 - Add more translation APIs for better accuracy
